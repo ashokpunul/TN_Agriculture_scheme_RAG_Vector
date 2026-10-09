@@ -1,0 +1,21 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# FAISS local database
+faiss_index/
+
+.env
+venv/
+.venv/
+**pycache**/
+*.py[cod]
+.streamlit/secrets.toml

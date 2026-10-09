@@ -1,0 +1,61 @@
+RAG PRACTICE QUESTIONS
+======================
+
+A. Employee Handbook — 10 questions
+1. What are the standard working hours and lunch-break duration?
+2. How many days per week may an eligible employee work remotely?
+3. How much notice is normally required for five consecutive working days of annual leave?
+4. How many paid sick days are provided, and when might a medical certificate be requested?
+5. What is the annual learning budget, and what evidence is needed for reimbursement?
+6. What is the meal reimbursement cap during domestic business travel?
+7. What should an employee do after discovering company equipment is lost?
+8. How often are formal performance reviews held?
+9. Can unused sick leave carry into the next calendar year?
+10. Which team should be contacted about leave and benefits?
+
+B. OrbitNote Product Manual — 10 questions
+11. How many notebooks can Basic and Pro users create?
+12. Does search index handwritten text inside images?
+13. What are the PDF import size limits for Basic and Pro?
+14. What happens if two devices edit the same paragraph while offline?
+15. What can a Commenter do that a Viewer cannot?
+16. How much cloud storage is included in each plan, and what is the Pro monthly price?
+17. Why might an imported PDF not appear in search immediately?
+18. What steps should a user take if sync is delayed?
+19. What does a public sharing link allow, and who can disable it?
+20. What are the Windows shortcuts for search, new note, and new notebook?
+
+C. GreenSteps Research Brief — 10 questions
+21. By how many kWh did electricity use change from 2024 to 2025?
+22. What percentage of 2025 total waste was documented as recycled?
+23. Which commuting mode increased its share the most between the two surveys?
+24. How much did water use decrease in cubic metres?
+25. Did workshop attendance represent unique people? Explain.
+26. What are the three numerical goals for 2026?
+27. Which team owns waste records and employee surveys?
+28. What are two limitations of the report's measurements?
+29. Calculate the percentage reduction in electricity use from 2024 to 2025.
+30. Compare the 2024 and 2025 recycling rates and explain whether the rate improved.
+
+D. Multi-hop / reasoning questions
+31. An employee wants to take six consecutive workdays off. How far in advance should they submit the request, and which team can answer policy questions?
+32. A Pro user imports a 150 MB PDF and cannot search its text after 30 seconds. Is the file within the size limit, and how long might indexing take?
+33. GreenSteps wants to verify whether its 2025 recycling goal of 45% was achieved. What figures should be used, what is the result, and what limitation should be mentioned?
+34. If GreenSteps wants an 8% reduction from its 2025 electricity use, what is its 2026 target in kWh?
+35. A user needs to share notes so colleagues can comment but not edit the note text. Which OrbitNote permission should be used?
+
+E. Retrieval quality / unanswerable questions
+36. What is Northstar Solutions' exact parental leave policy? (Not stated in the document.)
+37. Which OrbitNote encryption algorithm is used at rest? (Not stated in the document.)
+38. What was GreenSteps' carbon footprint in tonnes of CO2e? (Not stated in the document.)
+39. Which employee received the highest performance rating? (Not stated in the document.)
+40. What is the official legal name and registration number of GreenSteps? (Not stated in the document.)
+
+Practice instruction:
+For each question, ask your RAG app to answer only from the supplied documents. Require it to cite the document name and section. If the answer is not present, it should say "I couldn't find that in the provided documents" rather than guessing.
+
+Evaluation suggestion:
+- Easy: questions 1–20 (single fact retrieval)
+- Medium: questions 21–30 (comparison and calculations)
+- Hard: questions 31–35 (multi-hop reasoning)
+- Grounding tests: questions 36–40 (should abstain)
