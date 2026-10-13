@@ -1,21 +1,15 @@
-
-# Secrets
 .env
 .env.*
 !.env.example
-
-# Python
+venv/
+.venv/
 __pycache__/
 *.py[cod]
-venv/
-.venv/
-
-# FAISS local database
+*.mp4
+*.mov
+*.avi
+*.mkv
+document_store/
+pdf_page_images/
 faiss_index/
-
-.env
-venv/
-.venv/
-**pycache**/
-*.py[cod]
-.streamlit/secrets.toml
+faiss_index_uploaded/
