@@ -5,6 +5,17 @@ venv/
 .venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.idea/
 *.mp4
 *.mov
 *.avi
